@@ -1,0 +1,97 @@
+.kontak{
+	width: 735px;
+	max-width: 735px;
+	margin: 30px 0px 30px 30px;
+	height: auto;
+}
+.member{
+	height: auto;
+	width: 210px;
+	background: url(../img/img3.jpg) top left repeat;
+	border: 0px solid grey;
+	border-bottom-width: 3px;
+	border-right-width: 3px;
+	border-radius: 10px;
+	display: block; 
+	float: left;
+	transition: box-shadow 0.5s;
+}
+.member:hover{
+	box-shadow: 0px 0px 5px 5px darkgray;
+}
+.nav1{
+	height: 90px;
+	width: 90px;
+	background:  white;
+	transition: transform 2s;
+	transform-style: preserve-3d;
+	display: block;
+	margin: 10px;
+	float: left;}
+.nav1:hover{ transform: rotateY(180deg);}
+.depan1,.belakang1{
+	height: 90px;
+	top: 0px;
+	left: 0px;
+	width: 90px;
+	color: white;
+	position: absolute;
+	backface-visibility: hidden;
+}
+.belakang1{
+	transform: rotateY(180deg);
+	background:  white;
+	text-align: center; 
+	line-height: 90px;
+	text-decoration: none;
+	font-size: 20px;
+	transition: color 0.5s,text-shadow 0.5s;
+	color: #626262;}
+.belakang1:hover{
+	color: #626262;
+ 	text-shadow: 7px 7px 5px grey; }
+.depan1{background:  transparent;}
+.member p{ 
+	color: #626262;}
+.ml{ margin-right: 40px;}
+.adminfoto{
+	width: 90px;
+	height: 90px;
+	display: block;
+	float:left;
+	border-radius: 50%;}
+.jabatan{
+	margin: 0px;
+	margin: 45px 0px;
+	font-size: 20px;
+}
+.jabatan1{
+	font-size: 18px;
+	text-align: center;
+}
+
+.jabatan2{
+	margin: 10px;
+	font-size: 15px;
+	text-align: left;
+	margin-top: 5px;
+}
+.jabatan3{
+	margin: 10px;
+	font-size: 15px;
+	text-align: center;
+}
+.fixed{
+	font-style: italic;
+	font-size: 12px;
+}
+.jabatan3 a{
+	text-decoration: none;
+	color: #626262; 
+	transition: color 0.5s, text-shadow 0.5s;
+}
+.jabatan3 a:hover{
+	text-decoration: none;
+	color: #e8645a;
+	text-shadow: 5px 5px 5px grey;
+}

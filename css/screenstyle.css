@@ -1,0 +1,145 @@
+/* CSS Document */
+@media screen and (max-width: 768px){
+	body{
+		max-width:100%;}
+	nav{
+		width: 100%;
+		height: auto;
+		padding: 10px 0;
+		box-shadow: 0px 0px 0px 0px;
+		position: static;
+	}
+	.menu{
+		width: 100%;
+		height: 90px;
+	}
+	.satu-empat{
+		width: 25%;
+		height: 100%;
+	}
+	.logo-menu{
+		height: 90px;
+		width: 90px;
+	}
+	.satu-dua{
+		width: 100%;
+	}
+	.isi{ 
+		box-sizing: border-box;
+		padding-left: 10px;
+		padding-right: 10px;}
+	.list{
+		max-width: 100%;
+		width: 100%;
+	}	
+	.listpart ul li{
+		text-indent: 0px;
+		padding: 0 4px;
+	}
+	.listpart h3{
+		font-size: 100%;
+		background: darkslategrey;
+	}
+	.listpart h3:hover{
+		background: #77a2dc;
+	}
+	section.listpart{
+		width: 50%;
+		padding: 0 5px;
+		box-sizing: border-box;
+		height: auto;
+		float: left;
+		text-align: center;
+		font-size: 15px;
+	}
+	.hidden a{
+		color: white;
+	}
+	.hidden{
+		display: none;
+		background: #e8645a;
+		padding: 5px;
+		border-radius: 7px;
+	}
+	section.listpart:hover .hidden{
+		display: block;
+		position: absolute;
+		z-index: 1;
+	}
+	article{
+		padding-left: 0px;
+		width: 100%;
+	}
+	.welcome{
+		width: 100%;
+		float: left;
+	}
+	.welcomeexp{
+		width: 100%;
+		float: left;
+	}
+	.visited{
+		text-align: center;
+		width: 100%;
+		padding: 0px;
+	}
+	.visited ul li{
+		margin-left: 0px;
+	}
+	.visited ul li a{
+		background: darkslategrey;
+		margin-bottom: 20px;
+		text-indent: 0px;
+		font-size: 15px;
+	}
+	.isi{
+		max-width: 100%;
+		width: 100%;
+		margin: 0px;
+	}
+	.isi2{
+		margin: 0px;
+		padding: 0px;
+	}
+	.new{
+		display: none;
+		position: static;
+	}
+	.khusus1{
+		padding: 0px 10px;
+	}
+	#pimg1{
+		display: none;
+	}
+	.tabeldata{
+		max-width: 100%;
+		width: 100%;
+		overflow: scroll;
+	}
+	.tabeldata td{
+		padding: 0;
+		border-bottom:1px solid #76c7c0;
+		border-radius:0px;}
+	.tabeldata .kepalajudul td{
+		border-bottom:0px;
+	}
+	.komentar{
+		max-width:100%;
+	}
+	#tengahkomentar1{
+		width:100%;}
+	#tablekomentara{
+		width:100%;}
+	#komentaropen {
+		margin-left:0px;}
+	#komentarclose{
+			margin-left:0px;}
+	
+		
+}
+@media screen and (max-width:768px){
+	#ptable1{
+		margin-top: 20px;
+		margin-bottom: 10px;
+	}
+}

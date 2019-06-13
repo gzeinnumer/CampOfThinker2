@@ -1,0 +1,449 @@
+/*
+\toska #76c7c0 #528b86
+blue #77a2dc #638bd3
+red #e8645a #e2534b
+green #62a29e #528b86
+#76c7c0 #528b86
+*/
+*{
+	padding: 0px;
+	margin: 0px;
+}
+ul li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+html{
+	height: 100%;
+	width: 100%;
+	background: url(../img/bgall.3.png) top left repeat;
+}
+body{
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+}
+nav{
+	padding: 10px 5px;
+	border-radius: 0 0 3px 0;
+	width: 200px;
+	height: auto;
+	float: left;
+	display: block;
+	background: #76c7c0;
+	box-shadow: 0px 0px 5px 5px darkslategrey;
+	position: fixed;
+}
+.logo{
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+.logo p{
+	color: white;
+	font-size: 21px;
+	text-align: center;
+}
+.menu{
+	width: 200px;
+	height: 200px;
+	margin: 10px 0px;
+}
+.satu-empat{
+	float: left;
+	width: 50%;
+	height: 50%;
+	margin: 0 auto;
+	text-align: center;
+	background:  #76c7c0;
+	position: relative;
+	transition: transform 2s;
+	transform-style: preserve-3d;
+	animation-name: satu-empat;
+	animation-duration: 1s;
+	animation-delay: 1s;
+}
+
+.logo-menu{
+	height: 100px;
+	width: 100px;
+}
+.satu-empat:hover{ transform: rotateY(180deg);}
+
+#m1{ background-color: #5f84ce; color: #5f84ce; }
+#m2{ background-color: #df2d3c; color: #df2d3c; }
+#m3{ background-color: #446e79; color: #446e79; }
+#m4{ background-color: #b89f31; color: #b89f31; }
+.depan,.belakang{
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	color: white;
+	position: absolute;
+	backface-visibility: hidden;
+}
+.belakang{
+	transform: rotateY(180deg);
+	text-align: center; 
+	border-radius: 50%;
+	line-height: 95px;
+
+	font-size: 10px;}
+.belakang a{ 
+	text-decoration: none;
+	font-size: 20px;
+	padding: 3px;
+	border-radius: 3px;
+	transition: color 0.5s,text-shadow 0.5s, background 0.5s;}
+#m1 a{  color: #5f84ce; }
+#m2 a{  color: #df2d3c; }
+#m3 a{  color: #446e79; }
+#m4 a{  color: #b89f31; }
+.belakang a:hover{
+	background: white;}
+.depan{background:  #76c7c0;}
+.list{
+	width: 190px;
+	height: auto;
+	padding: 0px;
+	float: left;
+}
+.listpart a{
+	color: white;
+}
+.listpart h3{
+	text-align: center;
+	background: #528b86;
+	border-radius: 5px;
+	margin-bottom: 5px;
+	color: white;
+}
+.listpart ul li{
+	text-indent: 10px;
+}
+.listpart ul li:hover{
+	background: #77a2dc;
+	border-radius: 3px;
+}
+article{
+	height: 100%;
+	max-width: 100%;
+	padding-left: 210px;
+}
+.visited{
+	padding: 10px 10px;
+	background: #76c7c0;
+	box-shadow: 0px 0px 5px 5px darkslategrey;
+}
+.visited ul li{
+	display: inline-block;
+}
+.visited ul li a{
+	display: inline-block;
+	background: #528b86;
+	padding: 5px 10px;
+	color: white;
+	border-radius: 5px;
+	text-indent: 10px;
+}
+.visited ul li a:hover{
+	background: #77a2dc;
+}
+.satu-dua{
+	max-width: 100%;
+	width: 100%;
+	height: auto;
+}
+
+.isi{
+	max-width: 80.4%;
+	width: 80.4%;
+	height: auto;
+	padding: 10px 10px;
+	float: left;
+}
+.new{
+	width: 200px;
+	height: 100%;
+	float: left;
+}
+
+#ptable1{ margin: 10px 0px 0px 10px; }
+#pimg1 { height:70px; width:70px; }
+
+#ptxt2 {
+	font-size: 30px;
+	line-height: 0px;
+	color: #76c7c0;}
+@media screen and (max-width:768px){
+
+}
+#ptxt3 {
+	font-size: 15px;}
+section.isi p { 
+	color: #626262;
+	text-align: justify;
+	line-height: 1.5;
+	text-indent: 20px; }
+section.isi ul{
+	margin-left: 0px;
+}
+section.isi ul li{
+	color: #626262;
+	text-align: justify;
+	line-height: 1.5;
+	list-style-type: inherit;
+}
+section.isi h3{
+	color: #626262;
+}
+#imgtext{
+	max-width: 200px;
+	margin: 0 auto;
+	border: 0px;
+}
+#imgtext1{
+	width: 200px;
+	box-shadow: 0px 0px 5px 5px grey;
+	height: auto;
+	margin-bottom: 15px;
+}
+.share{
+	width: 100%;
+	background: #ececec;
+	margin: 0px 0px 30px 70px;
+	border-radius: 7px;
+	border: 0px solid #e5e6e6;
+	border-right-width: 5px;
+	border-bottom-width: 5px;
+	padding: 4px;
+	padding-bottom: 0px;}
+#share{
+	font-size:18px;
+	color: grey;
+	padding: 0px 0px 0px 10px; }
+.share{
+	box-sizing: border-box;
+	width: 100%;
+	background: #ececec;
+	margin: 0px 0px 30px 0px;
+	border-radius: 7px;
+	border: 0px solid #e5e6e6;
+	border-right-width: 5px;
+	border-bottom-width: 5px;
+	padding: 4px;
+	padding-bottom: 0px;}
+#share{
+	font-size:18px;
+	color: grey;
+	padding: 0px 0px 0px 10px; }
+#shareimg1 {
+	height: 50px;
+	width: 50px;
+	margin-left: 10px;
+	border-radius:50%;}
+#tsumber { margin: 0px 0px 0px 0px;  }
+.sumber	{
+	
+	box-sizing: border-box;
+	padding: 0px 5px 0px 5px;
+	width: 100%;
+	background-color:#ececec;
+	margin: 10px 0px 10px 0px;
+	border: 0px solid #e5e6e6;
+	border-right-width: 3px;
+	border-bottom-width: 3px;
+	border-radius: 7px;}
+#sumber	{ color: grey; }
+#linksumber { font-size: 100%; }
+div.sumber #tsumber tr td a{
+	text-decoration:none;
+	color: #e2534b;}
+	
+div.sumber #tsumber tr td a:hover{
+	text-decoration: underline;
+	color: #528b86; }
+.komentar {
+	height: auto;
+	margin: 0px 0px 0px 0px;
+	width: 100%;}
+#tengahkomentar1{
+	margin: 0 auto;
+	margin-top: 0px;
+	width:80%;}
+#tablekomentara{
+	margin: 0 auto;
+	background-color: #ececec;
+	padding: 0px 5px 0px 5px;
+	border: 0px solid #b2b2b2;
+	border-right-width: 2px;
+	border-bottom-width: 2px;
+	border-radius: 3px;
+	width: 80%;}
+#tnamap {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 5px;
+	font-size: 100%;
+	font-weight: 700;}
+#temailp {
+	font-size: 11px;
+	font-style:italic;
+	line-height: 10px;
+	padding: 0px 0px 0px 5px;
+	width: 390px;}
+#ttglp {
+	font-size: 11px;
+	font-style:italic;
+	padding: 0px 0px 0px 0px;}
+#tkomentarp {
+	background-color: #FFFFFF;
+	margin: -10px 0px 0px 0px;
+	width: 440px;
+	padding: 0px 0px 0px 50px;
+	margin-bottom: -5px;
+	border: 0px solid #b2b2b2;
+	border-radius: 3px;}
+#tkomentarp {width: 100px;}
+#tnamai {
+	background-color:white;
+	width:100%;
+	border:2px solid #b2b2b2;
+	border-radius: 3px;
+	border-top: 0px;
+	border-left: 0px;}
+#temaili{
+	font-size: 100%;
+	width:100%;
+	background-color:#FFFFFF;
+	border:2px solid #b2b2b2;
+	border-radius: 3px;
+	border-top: 0px;
+	border-left: 0px;}
+#tkomentari {
+	font-size: 100%;
+	width:100%;
+	background-color:white;
+	border:2px solid #b2b2b2;
+	border-radius: 3px;
+	border-top: 0px;
+	border-left: 0px;	}
+.komentar input[type=text] {
+	background: transparent;
+	border: 1px;}
+.komentar textarea[type=text] {
+	background: transparent;
+	border: 1px;}
+.komentar input[type=submit] {
+	float: left;
+	color: white;
+	background: transparent;
+	background-color: #62a29e;
+	border:2px solid #b2b2b2;
+	border-radius: 3px;}
+.komentar input[type=submit]:hover {
+	float: left;
+	color: white;
+	background: transparent;
+	background-color: #e8645a;
+	border:2px solid #b2b2b2;
+	border-radius: 3px;}
+#namei{
+	text-align: left ;
+	list-style: none;
+	line-height: 15px;}	
+#user{
+	height: 20px;
+	width: 40px;}
+#userpic {
+	height: 40px;
+	width: 40px;
+	margin-left: 5px;
+	margin-top: 16px;
+	margin-bottom: -16px;}
+#komentaropen {
+	color: #626262;
+	margin-left: 80px;}
+#komentarclose {
+	margin-top:20px;
+	text-align: left;
+	margin-left: 155px;
+	color: #626262;
+	font-weight: normal;}
+
+textarea{
+	font-size: 13px;
+	font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+}
+.judul{
+	display: none;
+}
+/*FOR TEXT*/
+.cgreen{
+	color: #528b86;
+}
+.cred{
+	color: #e8645a;
+}
+.cblue{
+	color: #77a2dc;
+}
+.cslate{
+	color: darkslategrey;
+}
+.sitalic{
+	font-style: italic;
+}
+.sbold{
+	font-weight: bold;
+}
+.conimg{
+	margin: 0px auto;
+	display: block;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 5px 5px grey;
+}
+.borderleft{
+	border-left: 3px solid #76c7c0;
+}
+.cbackground{
+	background: url(../img/img3.jpg) top left repeat;
+	max-width: 90%;
+	width: auto;
+	height: auto;
+}
+.pecah{
+	margin-left: 20px;
+}
+.isi b{
+	font-weight: normal;
+}
+.tabeldata{
+	text-align: center;
+	margin: 0px auto;
+	width:auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	background: darkslategray;
+}
+.tabeldata .kepalajudul{
+	background: #76c7c0;
+	border-bottom:0px;
+}
+.tabeldata td{
+	padding: 3px 10px;
+	color: white;
+	border-spacing: 0px;
+	border-radius: 2px;}
+.noshadow{
+	box-shadow: 0px 0px 0px 0px ;
+}
+
+.tabeldata .kepalajudul td{
+	border-bottom:0px;
+}
+/*END FOR TEXT*/

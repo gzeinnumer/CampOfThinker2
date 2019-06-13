@@ -1,0 +1,22 @@
+.about{
+	margin: 0px 90px 0px 90px;
+	height: auto;
+}
+
+div.about p { 
+	color: #626262;
+	text-align: justify;
+	line-height: 1.5;
+	text-indent: 20px; 
+	margin-top: 30px;}
+#cot{
+	font-size: 40px;
+	color:#62a29e;
+	text-align: center;
+}
+@media screen and (max-width:768px)
+{
+	.about{
+		margin: 0px;
+	}
+}
